@@ -3,7 +3,7 @@ package edu.wgu.d387_sample_code.convertor;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class WelcomeMessageProvider {
+public class WelcomeMessageProvider implements Runnable {
 
     public static String[] getWelcomeMessages(){
         String[] messages = new String[2];
@@ -19,5 +19,10 @@ public class WelcomeMessageProvider {
         messages[1] = frBundle.getString("welcome.message");
 
         return messages;
+    }
+
+    @Override
+    public void run() {
+        
     }
 }
