@@ -9,10 +9,8 @@
 
               [ X ] indicates complete
 
-              File Name: # 
-
+              File Name: #
               Line Number:  #
-
               Change:  #
 
 <hr/>
@@ -43,23 +41,23 @@ https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-adva
 
 <hr/>
 
-1.   Install the Landon Hotel scheduling application in your integrated development environment (IDE). Modify the Java classes of application to display a welcome message by doing the following:
+### 1.   Install the Landon Hotel scheduling application in your integrated development environment (IDE). Modify the Java classes of application to display a welcome message by doing the following:
 
 
 
--[ X ] a.  Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.
+  -[ X ] a.  Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.
  
-- **File Name:** _welcome.properties, welcome_en_US.properties, welcome_fr_CA.properties_
+      File Name: welcome.properties, welcome_en_US.properties, welcome_fr_CA.properties
+      Line Number:  1
+      Change: Add: B1A: resource bundles for both English and French, including a welcome message built into the language resource bundles.
 
+  -[ X ] b.  Display the welcome message in both English and French by applying the resource bundles using a different thread for each language.
 
-- **Line Number:**  _1_
+         File Name: WelcomeMessageProvider.java
+         Line Number:  1-23
+         Change:  Add: B1B: create a class to reads properties files, then adds them to JSON array
 
-- **Change:**  _Add: B1A: resource bundles for both English and French, including a welcome message built into the language resource bundles._
-
--[ ] b.  Display the welcome message in both English and French by applying the resource bundles using a different thread for each language.
-
-
-2.  Modify the front end to display the price for a reservation in currency rates for 
+### 2.  Modify the front end to display the price for a reservation in currency rates for 
 
 -[ ]  U.S. dollars ($)
 -[ ] Canadian dollars (C$)
