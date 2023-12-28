@@ -45,17 +45,75 @@ https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-adva
 
 
 
-  -[ X ] a.  Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.
+  - [X] a.  Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.
  
       File Name: welcome.properties, welcome_en_US.properties, welcome_fr_CA.properties
       Line Number:  1
-      Change: Add: B1A: resource bundles for both English and French, including a welcome message built into the language resource bundles.
+      Change: Add: B1A - resource bundles for both English and French, including a welcome message built into the language resource bundles.
 
-  -[ X ] b.  Display the welcome message in both English and French by applying the resource bundles using a different thread for each language.
+- [X]    b.  Display the welcome message in both English and French by applying the resource bundles using a different thread for each language.
 
          File Name: WelcomeMessageProvider.java
          Line Number:  1-23
-         Change:  Add: B1B: create a class to reads properties files, then adds them to JSON array
+         Change:  Add: B1B - create a class to reads properties files, then adds them to JSON array
+
+         File Name: WelcomeController.java
+         Line Number:  1-39
+         Change:  Add: B1B - Controller to display a welcome message in both English and French 
+
+          File Name: WelcomeResponse.java
+          Line Number:  1-13
+          Change:  Add: B1B - Response for welcome messages
+
+          from here I wanted to write the code according to demonstrations in order to avoid errors
+          
+          Spring: 
+
+          File Name: D387SampleCodeApplication.java
+          Line Number:  8
+          Change:  Add: B1B - @CrossOrigin(origins = "http://localhost:4200") to set the mode of request
+
+          File Name: ApiConfig.java
+          Line Number:  12-21
+          Change:  Add: B1B - Keeping enpoints secure by adding WebMvcConfigurer Bean
+
+          File Name: DisplayWelcomeMessage.java
+          Line Number:  1-26
+          Change: Add: B1B -  added  logic for displaying the welcome message, javadocs included 
+
+          File Name: WelcomeController.java
+          Line Number:  1-36
+          Change:  Add: B1B - Controller which retrieves a welcome message based on the specified language. 
+
+          Angular:
+
+          File Name: app.component.html
+          Line Number:  54-58
+          Change:  Add: B1B Inject Welcome component HTML into app.component
+
+          File Name: app.module.ts
+          Line Number:  12
+          Change:  Add: B1B Inject Welcome component into app.component 
+
+          File Name: app.module.ts
+          Line Number:  12
+          Change:  Add: B1B Inject Welcome component into app.component
+
+          File Name: welcome.component.html, welcome.component.ts,
+          Line Number:  1-5
+          Change: Add: B1B  Html to  be injected into app.component.html, Classes with lifecycle hooks and methods
+
+
+
+
+### API Test:
+
+<img src="src/main/resources/static/assets/images/readme-img/postman-welcome.png" alt="postman of welcome"/>
+<img src="src/main/resources/static/assets/images/hotel/welcome/en-msg-postman.png" alt="postman-en"/>
+<img src="src/main/resources/static/assets/images/hotel/welcome/fr-msg-postman.png" alt="postman-fr"/>
+
+### Results:
+<img src="src/main/resources/static/assets/images/hotel/welcome/landon-with-welcome-msg.png" alt="landon-with-msg"/>
 
 ### 2.  Modify the front end to display the price for a reservation in currency rates for 
 
