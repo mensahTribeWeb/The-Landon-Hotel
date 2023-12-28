@@ -21,19 +21,19 @@
 
 <hr/>
 
- -[X]  Clone the project to the IDE.
+ -[ X ]  Clone the project to the IDE.
 
- -[X]   Commit with a message and push when you complete each requirement listed in parts B1, B2, B3, and C1.
+ -[ X ]   Commit with a message and push when you complete each requirement listed in parts B1, B2, B3, and C1.
 
 
     Note: You may commit and push whenever you want to back up your changes, even if a requirement is not yet complete.
 
 
--[X]   Submit a copy of the GitLab repository URL in the "Comments to Evaluator" section when you submit this assessment.
+-[ X ]   Submit a copy of the GitLab repository URL in the "Comments to Evaluator" section when you submit this assessment.
 
 https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-advanced-java/-/tree/nick-dev?ref_type=heads
 
--[X]   Submit a copy of the repository branch history retrieved from your repository, which must include the commit messages and dates.
+-[ X ]   Submit a copy of the repository branch history retrieved from your repository, which must include the commit messages and dates.
 
 https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-advanced-java/-/network/nick-dev?ref_type=heads
 
@@ -47,7 +47,14 @@ https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-adva
 
 
 
--[ ] a.  Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.
+-[ X ] a.  Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.
+ 
+- **File Name:** _welcome.properties, welcome_en_US.properties, welcome_fr_CA.properties_
+
+
+- **Line Number:**  _1_
+
+- **Change:**  _Add: B1A: resource bundles for both English and French, including a welcome message built into the language resource bundles._
 
 -[ ] b.  Display the welcome message in both English and French by applying the resource bundles using a different thread for each language.
 
