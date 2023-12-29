@@ -7,9 +7,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { TimeComponent } from './time/time.component';
 
 @NgModule({
-  declarations: [AppComponent, WelcomeComponent],
+  declarations: [AppComponent, WelcomeComponent, TimeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
