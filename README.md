@@ -108,12 +108,20 @@ https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-adva
 
 ### API Test:
 
+### Test Welcome of Both English and French  Language:
+
 <img src="src/main/resources/static/assets/images/readme-img/postman-welcome.png" alt="postman of welcome"/>
 
 <br>
+
+### Test English Language:
+
 <img src="src/main/resources/static/assets/images/hotel/welcome/en-msg-postman.png" alt="postman-en"/>
 
 <br>
+
+###  Test French Language:
+
 <img src="src/main/resources/static/assets/images/hotel/welcome/fr-msg-postman.png" alt="postman-fr"/>
 <br>
 
@@ -139,14 +147,29 @@ Note: It is not necessary to convert the values of the prices.
 
 3.  Display the time for an online live presentation held at the Landon Hotel by doing the following:
 
--[ ] a.  Write a Java method to convert times between
+   -[X] a.  Write a Java method to convert times between
 
-  -[ ] eastern time (ET)
-  -[ ] mountain time (MT) 
-  -[ ] coordinated universal time (UTC) zones.
+   -[X] eastern time (ET)
+   -[X] mountain time (MT) 
+   -[X] coordinated universal time (UTC) zones.
 
--[ ] b.  Use the time zone conversion method from part B3a to display a message stating the time in all three times zones in hours and minutes for an online, live presentation held at the Landon Hotel. The times should be displayed as ET, MT, and UTC.
+                 File Name: TimeConverter.java, TimeController.java, date-time-format-postman.png
+                 Line Number:  1-37, 1-26
+                 Change: Add: B3A - converts the time between eastern time, mountain time, and coordinated universal time zones, then test with postman.
 
+### Results:
+
+ <img src="src/main/resources/static/assets/images/hotel/time/date-time-format-postman.png" alt="postman time format"/>    
+
+-[X] b.  Use the time zone conversion method from part B3a to display a message stating the time in all three times zones in hours and minutes for an online, live presentation held at the Landon Hotel. The times should be displayed as ET, MT, and UTC.
+
+             File Name: app.component.html, app.module.ts, time.component.html, time.component.ts, time.component.css
+             Line Number:  67-69, 10/13, 1-4, 1-5
+             Change:  Add: B3B Inject html into app.component, declare time component, write html code to be injected, add padding and color -blue
+
+### Results:
+
+<img src="src/main/resources/static/assets/images/hotel/time/time-display-hotel.png" alt="display-time-zones"/>   
 
 <hr/>
 
