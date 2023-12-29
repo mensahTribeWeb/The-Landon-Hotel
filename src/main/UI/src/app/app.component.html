@@ -143,10 +143,22 @@
                       alt="Intro Gallery Room Sample Pictures"
                     />
                   </td>
-                  <td>
-                    <strong>Room #: {{ room.roomNumber }}</strong
-                    ><br />
-                    <strong>Price: ${{ room.price }}</strong>
+
+                  <td class="currency-txt">
+                    Room #: {{ room.roomNumber }}
+                    <br />
+
+                    <!-- Display price in U.S. dollars -->
+                    Price: ${{ room.price }}
+                    <br />
+
+                    <!-- Display price in Canadian dollars -->
+                    Price: {{ room.price | currency : "CAD" }}
+                    <br />
+
+                    <!-- Display price in euros using the emoji keyboard for € -->
+                    Price: {{ room.price | currency : "EUR" }}
+                    <br />
                   </td>
                   <td>
                     <button
