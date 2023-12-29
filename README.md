@@ -109,20 +109,33 @@ https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-adva
 ### API Test:
 
 <img src="src/main/resources/static/assets/images/readme-img/postman-welcome.png" alt="postman of welcome"/>
+
+<br>
 <img src="src/main/resources/static/assets/images/hotel/welcome/en-msg-postman.png" alt="postman-en"/>
+
+<br>
 <img src="src/main/resources/static/assets/images/hotel/welcome/fr-msg-postman.png" alt="postman-fr"/>
+<br>
 
 ### Results:
 <img src="src/main/resources/static/assets/images/hotel/welcome/landon-with-welcome-msg.png" alt="landon-with-msg"/>
 
+<br>
+
 ### 2.  Modify the front end to display the price for a reservation in currency rates for 
 
--[ ]  U.S. dollars ($)
--[ ] Canadian dollars (C$)
--[ ] euros (€) 
-
+-[X]  U.S. dollars ($)
+-[X]  Canadian dollars (C$)
+-[X]  euros (€) 
 
 Note: It is not necessary to convert the values of the prices.
+
+          File Name: app.component.html, app.component.ts
+          Line Number:  146-161
+          Change: Add: B1B functionality to display the price for a reservation in currency rates for 
+               U.S. dollars ($), Canadian dollars (C$), and euros (€) on different lines. 
+### Results:
+<img src="src/main/resources/static/assets/images/hotel/currency/currency-conversion.png" alt="currency-conversions"/>
 
 3.  Display the time for an online live presentation held at the Landon Hotel by doing the following:
 
