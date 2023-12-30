@@ -7,6 +7,7 @@ import edu.wgu.d387_sample_code.entity.RoomEntity;
 import edu.wgu.d387_sample_code.model.request.ReservationRequest;
 import edu.wgu.d387_sample_code.model.response.ReservableRoomResponse;
 import edu.wgu.d387_sample_code.model.response.ReservationResponse;
+
 //import edu.wgu.d387_sample_code.repository.PageableRoomRepository;
 import edu.wgu.d387_sample_code.repository.ReservationRepository;
 import edu.wgu.d387_sample_code.repository.RoomRepository;
@@ -42,8 +43,8 @@ public class ReservationResource {
     @Autowired
     ApplicationContext context;
 
-       // @Autowired
-       // PageableRoomRepository pageableRoomRepository;
+//        @Autowired
+//        PageableRoomRepository pageableRoomRepository;
 
         @Autowired
         RoomRepository roomRepository;
