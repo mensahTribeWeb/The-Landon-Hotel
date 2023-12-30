@@ -197,11 +197,27 @@ Note: It is not necessary to convert the values of the prices.
 
 -[ ] 2.  Test the Dockerfile by doing the following:
 
-  -[ ] Create a Docker image of the current multithreaded Spring application.
+  -[X] Create a Docker image of the current multithreaded Spring application.
+#### Docker Image Multithread Spring
 
-  -[ ]  Run the Docker image in a container and give the container a name that includes **D387_010195113**.
+<img src="src/main/resources/static/assets/images/docker-img/docker-image-multithread-spring.png" alt="docker-image-multithread-spring">
 
-  -[ ] Submit a screenshot capture of the running application with evidence it is running in the container.
+
+  -[X]  Run the Docker image in a container and give the container a name that includes **D387_010195113**.
+
+#### Run Docker Container
+
+<img src="src/main/resources/static/assets/images/docker-img/run-dockerfile-1.png" alt="run-docker-command">
+
+  -[X] Submit a screenshot capture of the running application with evidence it is running in the container.
+
+#### Proof of Running Docker from CommandLine
+
+<img src="src/main/resources/static/assets/images/docker-img/run-dockerfile-CLI.png" alt="run-docker-CLI">
+
+#### Proof of Running Docker from DockerHub
+
+<img src="src/main/resources/static/assets/images/docker-img/running-on-DockerHub.png" alt="Running-from-Dockerhub">
 
 -[X] 3.  Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use.
 
