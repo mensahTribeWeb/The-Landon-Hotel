@@ -175,7 +175,25 @@ Note: It is not necessary to convert the values of the prices.
 
 ## C.  Explain how you would deploy the Spring application with a Java back end and an Angular front end to cloud services and create a Dockerfile using the attached supporting document "How to Create a Docker Account" by doing the following:
 
--[ ] 1. Build the Dockerfile to create a single image that includes all code, including modifications made in parts B1 to B3. Commit and push the final Dockerfile to GitLab.
+-[X] 1. Build the Dockerfile to create a single image that includes all code, including modifications made in parts B1 to B3. Commit and push the final Dockerfile to GitLab.
+
+            File Name: Dockerfile
+            Line Number:  1-32
+            Change:  #
+
+##### BUILD DOCKERFILE Photo
+
+<img src="src/main/resources/static/assets/images/docker-img/docker-build.png" alt="docker-img">
+
+#### Docker Container Photo
+
+<img src="src/main/resources/static/assets/images/docker-img/docker-proof.png" alt="docker-container-pushed">
+
+#### Docker IMAGE
+
+<img src="src/main/resources/static/assets/images/docker-img/docker-image-overview.png" alt="docker-image-overview">
+
+<img src="">
 
 -[ ] 2.  Test the Dockerfile by doing the following:
 
