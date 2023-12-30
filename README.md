@@ -19,21 +19,21 @@
 
 <hr/>
 
- -[ X ]  Clone the project to the IDE.
+ -[X]  Clone the project to the IDE.
 
- -[ X ]   Commit with a message and push when you complete each requirement listed in parts B1, B2, B3, and C1.
+ -[X]   Commit with a message and push when you complete each requirement listed in parts B1, B2, B3, and C1.
 
 
     Note: You may commit and push whenever you want to back up your changes, even if a requirement is not yet complete.
 
 
--[ X ]   Submit a copy of the GitLab repository URL in the "Comments to Evaluator" section when you submit this assessment.
+-[X]   Submit a copy of the GitLab repository URL in the "Comments to Evaluator" section when you submit this assessment.
 
-https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-advanced-java/-/tree/nick-dev?ref_type=heads
+[Git](https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-advanced-java/-/tree/nick-dev?ref_type=heads)
 
--[ X ]   Submit a copy of the repository branch history retrieved from your repository, which must include the commit messages and dates.
+-[X]   Submit a copy of the repository branch history retrieved from your repository, which must include the commit messages and dates.
 
-https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-advanced-java/-/network/nick-dev?ref_type=heads
+[Repository Graph](https://gitlab.com/wgu-gitlab-environment/student-repos/mensahTribeWeb/d387-advanced-java/-/network/nick-dev?ref_type=heads)
 
 <hr/>
 
@@ -181,8 +181,14 @@ Note: It is not necessary to convert the values of the prices.
 
   -[ ] Create a Docker image of the current multithreaded Spring application.
 
-  -[ ]  Run the Docker image in a container and give the container a name that includes D387_[student ID].
+  -[ ]  Run the Docker image in a container and give the container a name that includes **D387_010195113**.
 
   -[ ] Submit a screenshot capture of the running application with evidence it is running in the container.
 
-[  ] 3.  Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use.
+-[X] 3.  Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use.
+
+[Deploying Multithreaded Spring Application to AWS Cloud](https://docs.google.com/document/d/e/2PACX-1vQQIu1GCq91c6RRIiQb-YW1GgwuEhRlW6lU_h4_gz0uVk4gMrX8OLsoAa6GUny0796ydPZ2ujJN3Nz1/pub)
+
+### **Backup-link**
+
+https://docs.google.com/document/d/1CIDYu9Tluj0iJWwyg8udTEdJaXYknsbkyZvCpUcmcgQ/edit?usp=sharing
