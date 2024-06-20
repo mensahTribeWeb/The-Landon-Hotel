@@ -1,7 +1,10 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
+# Landon Hotel
+![landon-with-welcome-msg](https://github.com/mensahTribeWeb/The-Landon-Hotel/assets/103342287/d2b8a27b-677c-4c80-b29d-e88acce27fee)
 
-# WESTERN GOVERNOR UNIVERSITY 
-## D387 – ADVANCED JAVA
+![image](https://github.com/mensahTribeWeb/The-Landon-Hotel/assets/103342287/efa1ca04-9624-4da0-b157-22c89ce8aa1f)
+![time-display-hotel](https://github.com/mensahTribeWeb/The-Landon-Hotel/assets/103342287/b24d5e89-9462-48ba-8d96-10ff4389736c)
+
+
 
 ## Outline
 
